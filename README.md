@@ -13,5 +13,4 @@ v1.0:
 Know issues/bugs:
 - clicking "itemDone" li items from top to bottom changes class back to "item", but clicking from bottom to top leaves <> with check symbol.
 
-
-
+Live: https://michalgrochowski.github.io/to-do/. 

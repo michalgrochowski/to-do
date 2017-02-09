@@ -59,13 +59,13 @@ document.getElementById("list").addEventListener("click", function(e) {
     e.target.className = "itemDone"; // change class to "itemDone"
     var check = document.createElement("i"); // create new "i" element
     check.className = "fa fa-check done"; // add class to "i" element
-    e.target.appendChild(check); // add new "span" element to event target ("li")
+    e.target.appendChild(check); // add new "i" element to event target ("li")
     } else if (e.target && e.target.matches("li.itemDone")) {// if event target matches an "li" item with "itemDone" class
     e.target.className = "item"; // change class to "item"
-    var done = e.target.getElementsByClassName("done");
+    var done = e.target.getElementsByClassName("done"); // choose target with "done" class
     var i;
     for (i = 0; i < done.length; i++) {
-    e.target.removeChild(done[i]);
+    e.target.removeChild(done[i]); // remove "i" element with "done" class from target
     };
     };
 });

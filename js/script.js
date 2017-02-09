@@ -62,7 +62,7 @@ document.getElementById("list").addEventListener("click", function(e) {
     e.target.appendChild(check); // add new "span" element to event target ("li")
     } else if (e.target && e.target.matches("li.itemDone")) {// if event target matches an "li" item with "itemDone" class
     e.target.className = "item"; // change class to "item"
-    var done = document.getElementsByClassName("done");
+    var done = e.target.getElementsByClassName("done");
     var i;
     for (i = 0; i < done.length; i++) {
     e.target.removeChild(done[i]);

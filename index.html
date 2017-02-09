@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8"/>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://fonts.googleapis.com/css?family=Sansita&amp;subset=latin-ext" rel="stylesheet"> 
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/main.css">
+	<title>Prosta aplikacja To-Do list</title>
+	<meta name="description" content="Prosta aplikacja zadań To-Do">
+	<meta name="keywords" content="aplikacja, to-do, lista, zadań, javascript">
+	<meta name="author" content="Michał Grochowski">
+</head>
+<body> 
+<header id="header">
+	<div class="description">
+	<h1>Prosta aplikacja To-Do</h1>
+	<h3>Vanilla JavaScript</h3>
+	</div>
+</header>
+<section>  
+	<div class="mainlist">
+		<form class="form">
+		<input id="newInput" type="text" placeholder="Dodaj pozycję">
+		<button id="createNew" type="button">Dodaj</button>
+		</form>
+		<h2>Moja lista:</h2>
+		<div class="listBg">
+			<ul id="list">
+			</ul>
+		</div>
+		<button id="deleteAll" type="button">Wyczyść</button>
+		<p class="helpText">Żeby dodać pozycję do listy wpisz tekst w polu "Dodaj pozycję", a następnie kliknij przycisk "Dodaj" lub wciśnij enter.</p>
+		<p class="helpText">Kliknij wybrane zadanie, żeby oznaczyć je jako wykonane. W ten sam sposób możesz je odznaczyć.</p>
+		<p class="helpText">Usuń wybraną pozycję z listy kilkając "X" w prawym rogu.</p>
+		<p class="helpText">Żeby wyczyścić całą listę, kliknij przycisk "Wyczyść".</p>
+	</div>  
+</section>
+<footer>
+	<div class="footer">
+    <p>&copy 2017 <a href="http://dobrywebdev.pl" target="_blank">Dobrywebdev.pl</a></p>
+	</div>
+</footer>
+<script src="js/script.js"></script>
+</body>
+</html>

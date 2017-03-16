@@ -18,6 +18,6 @@ v1.0:
 - Basic responsive css - Flexbox.
 
 Known issues/bugs:
-- clicking "itemDone" li items from top to bottom changes class back to "item", but clicking from bottom to top leaves <> with check symbol.
+- clicking "itemDone" li items from top to bottom changes class back to "item", but clicking from bottom to top leaves check icon.
 
 Live: https://michalgrochowski.github.io/to-do/. 

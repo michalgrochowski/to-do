@@ -16,6 +16,7 @@ function addItem() {
     var itemText = document.getElementById("newInput").value; // read the input value from #newInput
     var listText = document.createTextNode(itemText); // create text node with calue from input
     newListItem.appendChild(listText); // add text node to new "li" element
+    newListItem.className = ""
     if (itemText === "") { // if input value is empty
         alert("Pole nie może być puste"); // show this alert
     } else { // if it's not empty

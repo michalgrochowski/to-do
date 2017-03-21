@@ -125,7 +125,7 @@ footer a {
     margin: 5px;
 }
 .helpText:last-of-type {
-    margin-bottom: 15px;
+    margin-bottom: 25px;
 }
 #list {
     list-style: none;
@@ -228,9 +228,6 @@ footer a {
     @media only screen and (min-width : 768px) {
         .mainlist {
         margin-top: 10px;
-        }
-        header {
-        position: fixed;
         }
         #newInput {
         max-width: 360px;

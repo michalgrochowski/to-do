@@ -1,16 +1,21 @@
 # to-do-app
-First Vanilla JS app
+TO-DO list - First Vanilla JS app
 
 This is my first Vanilla JS Application. It's a simple to-do list, where you input text and create tasks, that you can then delete or mark as done.
+
+Made using HTML5, CSS3 (Flexbox layout) and Vanilla JS. All graphics were made by me.
 
 Plans:
 - Make and english version (v1.5),
 - Add the option to remove only selected items from localStorage (in 1.4),
-- ``Add saving items to localStorage (v1.3).``
+- ~~Add saving items to localStorage (v1.3).~~
 
 v1.3
 - Added saving your to-do items to the localStorage by clocking 'Zapisz" button,
 - You can delete all items fro localStorage by clicking "Wyczyść" button.
+
+Known issues/bugs:
+- in Firefox the localStorage gets reversed keys - as far as I know there is no workaround, but I'll try to find something.
 
 v1.2
 - Added animations when a new "li" element is added to the list,
@@ -30,3 +35,5 @@ Known issues/bugs:
 - clicking "itemDone" li items from top to bottom changes class back to "item", but clicking from bottom to top leaves check icon.
 
 Live: https://michalgrochowski.github.io/to-do/. 
+
+License: MIT.

@@ -3,8 +3,17 @@ First Vanilla JS app
 
 This is my first Vanilla JS Application. It's a simple to-do list, where you input text and create tasks, that you can then delete or mark as done.
 
+Plans:
+- Make and english version (v1.5),
+- Add the option to remove only selected items from localStorage (in 1.4),
+- ``Add saving items to localStorage (v1.3).``
+
+v1.3
+- Added saving your to-do items to the localStorage by clocking 'Zapisz" button,
+- You can delete all items fro localStorage by clicking "Wyczyść" button.
+
 v1.2
-- Added animations when a new "li" element is added to the list.
+- Added animations when a new "li" element is added to the list,
 - Added animation when a list item is marked as done.
 
 v1.1

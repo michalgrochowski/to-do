@@ -122,9 +122,6 @@ footer a {
 .helpText {
     margin: 5px;
 }
-.helpText:last-of-type {
-    margin-bottom: 25px;
-}
 #list {
     list-style: none;
     color: white;
@@ -162,7 +159,7 @@ footer a {
     padding: 10px;
     cursor: pointer;
 }
-#deleteAll {
+#deleteAll, #saveAll {
     font-family: 'Sansita', sans-serif;
     background-color: transparent;
     border: 1px solid white;
@@ -174,7 +171,7 @@ footer a {
     padding: 10px;
     transition: all 0.3s;
 }
-#deleteAll:hover {
+#deleteAll:hover, #saveAll:hover {
     background-color: #eae9ce;
     border: 1px solid white;
     border-radius: 5px;
@@ -184,6 +181,11 @@ footer a {
     margin-left: 30px;
     padding: 10px;
     cursor: pointer;
+}
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 @keyframes pop-up {
     0% {
@@ -221,6 +223,9 @@ footer a {
         footer {
         position: relative;
         }
+        .helpText:last-of-type {
+        margin-bottom: 10px;
+        }
     }
     /* Small Devices, Tablets */
     @media only screen and (min-width : 768px) {
@@ -238,6 +243,9 @@ footer a {
         }
         footer {
         position: fixed;
+        }
+        .helpText:last-of-type {
+        margin-bottom: 70px;
         }
     }
     /* Medium Devices, Desktops */

@@ -5,15 +5,16 @@ This is my first Vanilla JS Application. It's a simple to-do list, where you inp
 
 Made using HTML5, CSS3 (Flexbox layout) and Vanilla JS. All graphics were made by me.
 
-Plans:
-- Make and english version (v1.5),
-- Add the option to remove only selected items from localStorage (in 1.4),
+Plans for future releases:
+- Make it PWA. (v1.6)
+- Make an english version (v1.5),
+- Add the option to remove only selected items from localStorage by clicking "x" button (in 1.4),
 - ~~Add saving items to localStorage (v1.3).~~
+- Minor layout fixes (someday).
 
 v1.3
 - Added saving your to-do items to the localStorage by clocking 'Zapisz" button,
 - You can delete all items fro localStorage by clicking "Wyczyść" button.
-
 Known issues/bugs:
 - in Firefox the localStorage gets reversed keys - as far as I know there is no workaround, but I'll try to find something.
 
@@ -30,7 +31,6 @@ v1.0:
 - Working script that changes class from "item" to "itemDone" and back on click,
 - Working script that deletes item when "x" is clicked,
 - Basic responsive css - Flexbox.
-
 Known issues/bugs:
 - clicking "itemDone" li items from top to bottom changes class back to "item", but clicking from bottom to top leaves check icon.
 

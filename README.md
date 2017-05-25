@@ -13,10 +13,10 @@ Plans for future releases:
 - Minor layout fixes (someday).
 
 v1.3
-- Added saving your to-do items to the localStorage by clocking 'Zapisz" button,
-- You can delete all items fro localStorage by clicking "Wyczyść" button.
+- Added saving your to-do items to the localStorage by clicking 'Zapisz" button,
+- You can delete all items from localStorage by clicking "Wyczyść" button.
 Known issues/bugs:
-- in Firefox the localStorage gets reversed keys - as far as I know there is no workaround, but I'll try to find something.
+- In Firefox (currently using 52.0) the localStorage gets reversed keys - as far as I know there is no workaround, but I'll try to fix it somehow.
 
 v1.2
 - Added animations when a new "li" element is added to the list,

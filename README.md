@@ -8,7 +8,7 @@ Made using HTML5, CSS3 (Flexbox layout) and Vanilla JS. All graphics were made b
 Plans for future releases:
 - Make it PWA. (v1.6)
 - Make an english version (v1.5),
-- Add the option to remove only selected items from localStorage by clicking "x" button (in 1.4),
+- Add the option to remove only selected items from localStorage by clicking "x" button (v1.4),
 - ~~Add saving items to localStorage (v1.3).~~
 - Minor layout fixes (someday).
 

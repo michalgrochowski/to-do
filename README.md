@@ -17,7 +17,7 @@ v1.3
 - You can delete all items from localStorage by clicking "Wyczyść" button.
 
 Known issues/bugs:
-- In Firefox (currently using 52.0) the localStorage gets reversed keys - as far as I know there is no workaround, but I'll try to fix it somehow.
+- In Firefox the localStorage gets reversed keys - as far as I know there is no workaround, but I'll try to fix it somehow.
 
 v1.2
 - Added animations when a new "li" element is added to the list,

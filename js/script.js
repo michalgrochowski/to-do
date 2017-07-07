@@ -6,7 +6,6 @@
 /* Load items from localStorage if there are any */
 window.addEventListener("DOMContentLoaded", function() {
     var myList = document.getElementById("list");
-
     for (var i = 0; i < localStorage.length; i++) {
         var item = document.createElement("li");
         var localKey = localStorage.getItem(localStorage.key(i));
@@ -100,6 +99,7 @@ window.addEventListener("DOMContentLoaded", function() {
     /* Save all "li" items form the list to localStorage */
     var saveAll = document.getElementById("saveAll"); // get the "saveAll" button
     saveAll.addEventListener("click", function() { // add event listener to "saveAll" button
+        window.localStorage.clear();
         var item = document.getElementsByTagName("li"); // get all vurrent "li" items
         for (var i = 0; i < item.length; i++) { //for every "li" item set a new localStorage item with corresponding key
             localStorage.setItem([i], JSON.stringify(item[i].innerHTML));

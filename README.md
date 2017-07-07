@@ -12,6 +12,9 @@ Plans for future releases:
 - ~~Add saving items to localStorage (v1.3).~~
 - Minor layout fixes (someday).
 
+v1.31
+- Fixes a bug where saving the list with different items overwrites previous keys.
+
 v1.3
 - Added saving your to-do items to the localStorage by clicking 'Zapisz" button,
 - You can delete all items from localStorage by clicking "Wyczyść" button.

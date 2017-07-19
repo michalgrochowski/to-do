@@ -13,7 +13,7 @@ Plans for future releases:
 - Minor layout fixes (someday).
 
 v1.31
-- Fixes a bug where saving the list with different items overwrites previous keys.
+- Fixed a bug where saving the list with different items overwrites previous keys.
 
 v1.3
 - Added saving your to-do items to the localStorage by clicking 'Zapisz" button,
@@ -35,6 +35,7 @@ v1.0:
 - Working script that changes class from "item" to "itemDone" and back on click,
 - Working script that deletes item when "x" is clicked,
 - Basic responsive css - Flexbox.
+
 Known issues/bugs:
 - clicking "itemDone" li items from top to bottom changes class back to "item", but clicking from bottom to top leaves check icon.
 
